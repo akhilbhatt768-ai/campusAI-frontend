@@ -59,7 +59,7 @@ document.addEventListener('DOMContentLoaded', () => {
             };
 
             // Call the local backend endpoint
-            const response = await fetch('https://akhilbhatt768-campusai.hf.space/query', requestOptions);
+            const response = await fetch('http://127.0.0.1:8000/query', requestOptions);
 
             // Hide typing indicator when request finishes
             removeElement(typingId);
